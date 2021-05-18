@@ -27,7 +27,6 @@ def seqvec(seq: Sequence):
         embedder = SeqVecEmbedder()
         em_per_res = embedder.embed(seq_str)
         em_per_prot = embedder.reduce_per_protein(em_per_res)
-        print(list(em_per_prot))
         return {"seqvec": list(em_per_prot)}
 
     except:
