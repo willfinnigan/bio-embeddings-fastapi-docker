@@ -1,6 +1,6 @@
 FROM continuumio/miniconda3:4.8.2
 
-RUN pip install bio-embeddings[all]
+RUN pip install bio-embeddings[seqvec]
 RUN pip install fastapi uvicorn python-multipart
 
 EXPOSE 80
