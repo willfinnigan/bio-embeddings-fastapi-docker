@@ -3,7 +3,7 @@ import os
 import subprocess as sp
 import shutil
 from typing import Optional
-#from bio_embeddings.embed import SeqVecEmbedder
+from bio_embeddings.embed import SeqVecEmbedder
 from pydantic import BaseModel
 
 class Sequence(BaseModel):
